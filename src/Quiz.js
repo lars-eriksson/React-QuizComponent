@@ -8,7 +8,6 @@ class Quiz extends Component {
     this.state = {quiz_position: 1};
   }
   showNextQuestion() {
-    // Will not work?
     this.setState({quiz_position: this.state.quiz_position + 1});
   }
   render() {
